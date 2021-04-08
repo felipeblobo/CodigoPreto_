@@ -62,10 +62,24 @@ h1 {
    background-color: #eb5e18;
 }
 
+
+.secondTitle {
+   margin-top: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
 .card-title {
    font-size: 36px;
-   padding-bottom: 20px;
+   margin-left: 18px;
 
+}
+
+.card-content {
+   font-size: 18px;
+   line-height: 27px;
 }
 
 a {
@@ -73,3 +87,8 @@ a {
    color: #1b1a1a;
 }
 
+img {
+   width: 15%;
+   height: auto;
+
+}
