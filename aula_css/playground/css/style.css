@@ -4,7 +4,7 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: #e6e6e6;
+    background-color: #D5DFE5;
     margin: 50px;
     font-size: 14px;
     line-height: 23px;
@@ -16,3 +16,10 @@ h1 {
     font-size: 3rem;
 }
 
+div {
+    margin-bottom: 32px;
+}
+
+.subTitles {
+    color: #567568;
+}
