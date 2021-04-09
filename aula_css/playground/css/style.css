@@ -4,16 +4,30 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: #D5DFE5;
+    background-color: #d4c7ce;
     margin: 50px;
     font-size: 14px;
     line-height: 23px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
     font-style: italic;
     text-align: center;
     font-size: 3rem;
+    color: #7F9172;
+    text-shadow: 1px 1px #141313;
+    line-height: 4.5rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 10%;
+    margin-right: 20px;
 }
 
 div {
