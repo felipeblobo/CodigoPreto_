@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula de Formulários - HTML</title>
+  </head>
+  <body>
+    <h1>Cadastre-se</h1>
+    <h2>Vacina Já!</h2>
+    <form action="/cadastro" method="POST">
+      <div>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" value="" />
+      </div>
+
+      <div>
+        <label for="grupoPrioritario">Grupo Prioritário</label>
+        <select id="grupoPrioritario" name="grupoPrioritario">
+          <option value="idosos">Idosos</option>
+          <option value="comorbidades">Portadores de Comorbidades</option>
+          <option value="imunosuprimidos">Imunosuprimidos</option>
+          <option value="outros">Outros</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="masculino" />
+        <label for="feminino">Feminino</label>
+        <input type="checkbox" id="feminino" name="feminino" />
+      </div>
+
+      <div>
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" required />
+      </div>
+
+      <div>
+        <label for="senha">Repita a senha: </label>
+        <input type="password" name="senha" required />
+      </div>
+
+      <input type="button" value="Salvar" />
+    </form>
+  </body>
+</html>
