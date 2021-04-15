@@ -4,45 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Aula de Formulários - HTML</title>
   </head>
   <body>
     <h1>Cadastre-se</h1>
-    <h2>Vacina Já!</h2>
+     
     <form action="/cadastro" method="POST">
       <div>
-        <label for="nome">Nome: </label>
-        <input type="text" name="nome" value="" />
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName" value="" required />
       </div>
 
       <div>
-        <label for="grupoPrioritario">Grupo Prioritário</label>
-        <select id="grupoPrioritario" name="grupoPrioritario">
-          <option value="idosos">Idosos</option>
-          <option value="comorbidades">Portadores de Comorbidades</option>
-          <option value="imunosuprimidos">Imunosuprimidos</option>
-          <option value="outros">Outros</option>
-        </select>
+        <label for="lastName">Last Name: </label>
+        <input type="text" name="lastNameName" value="" required />
+      </div>
+    
+
+      <div>
+        <label for="password">Password: </label>
+        <input type="password" name="password" value='' required />
       </div>
 
       <div>
-        <label for="masculino">Masculino</label>
-        <input type="radio" id="masculino" name="masculino" />
-        <label for="feminino">Feminino</label>
-        <input type="checkbox" id="feminino" name="feminino" />
+        <label for="senha">Password confirmation: </label>
+        <input type="password" name="senha" value='' required />
       </div>
 
-      <div>
-        <label for="senha">Senha: </label>
-        <input type="password" name="senha" required />
-      </div>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="" disabled selected></option>
+        <option value="brazil">Brasil</option>
+        <option value="argentina">Argentina</option>
+        <option value="equador">Equador</option>
+        <option value="australia">Austrália</option>
+      </select>
 
-      <div>
-        <label for="senha">Repita a senha: </label>
-        <input type="password" name="senha" required />
-      </div>
-
-      <input type="button" value="Salvar" />
+      <button>Salvar</button>
     </form>
   </body>
 </html>
