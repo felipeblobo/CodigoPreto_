@@ -10,7 +10,7 @@ body {
 }
 
 form {
-    background-color: #c3c3c3a4;
+    background-color: #c3c3c385;
     padding: 20px;
     height: 400px;
     width: 30%;
@@ -25,7 +25,8 @@ input, select {
 button {
     margin-top: 40px;
     width: 100%;
-    background-color: #46c846;
+    background-color: #dd7129;
     height: 40px;
+    color: white;
     
 }
