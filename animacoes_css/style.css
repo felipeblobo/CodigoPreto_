@@ -13,34 +13,35 @@ body {
   animation-name: pinga;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
 
   position: relative;
 }
 
 @keyframes pinga {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0px) scale(1);
     animation-timing-function: ease-in;
   }
 
   25% {
-    transform: translateY(150px);
+    transform: translateY(150px) scale(2);
     animation-timing-function: linear;
   }
 
   50% {
-    /* background-color:blue; */
-    transform: translateY(300px);
+    background-color:rgb(12, 12, 14);
+    transform: translateY(300px) scale(3) ;
     animation-timing-function: linear;
   }
 
   75% {
-    transform: translateY(150px);
+    transform: translateY(150px) scale(2);
     animation-timing-function: linear;
   }
 
   100% {
-    transform: translateY(0px);
+    transform: translateY(0px) scale(1);
     animation-timing-function: ease-in;
   }
 }
