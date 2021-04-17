@@ -5,7 +5,46 @@ body {
   height: 100vh;
 }
 
-.ball {
+
+.azul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    animation: brasil;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+.amarelo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    animation: brasil;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.verde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:green;
+    width: 300px;
+    height: 300px;
+    animation: brasil;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+/* div {
   border-radius: 50%;
   background: red;
   height: 10vmin;
@@ -16,32 +55,33 @@ body {
   animation-fill-mode: forwards;
 
   position: relative;
-}
+} */
 
-@keyframes pinga {
+@keyframes brasil {
   0% {
-    transform: translateY(0px) scale(1);
+    transform: rotate(0deg);
     animation-timing-function: ease-in;
   }
 
   25% {
-    transform: translateY(150px) scale(2);
+    transform: rotate(45deg);
     animation-timing-function: linear;
   }
 
   50% {
     background-color:rgb(12, 12, 14);
-    transform: translateY(300px) scale(3) ;
+    transform: rotate(90deg);
     animation-timing-function: linear;
+    border-radius: 50%;
   }
 
   75% {
-    transform: translateY(150px) scale(2);
+    transform: rotate(45deg);
     animation-timing-function: linear;
   }
 
   100% {
-    transform: translateY(0px) scale(1);
+    transform: rotate(0deg);
     animation-timing-function: ease-in;
   }
 }
