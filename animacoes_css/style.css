@@ -69,10 +69,11 @@ body {
   }
 
   50% {
-    background-color:rgb(12, 12, 14);
+    
     transform: rotate(90deg);
     animation-timing-function: linear;
     border-radius: 50%;
+    background-color:rgb(12, 12, 14);
   }
 
   75% {
@@ -83,5 +84,6 @@ body {
   100% {
     transform: rotate(0deg);
     animation-timing-function: ease-in;
+    
   }
 }
