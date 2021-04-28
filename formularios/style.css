@@ -30,3 +30,12 @@ button {
    
     
 }
+
+ul {
+    padding: 20px 105px;
+    font-size: 20px;
+    max-width:100%;
+    color: #f0f0f0;
+    box-sizing: border-box;
+   
+}

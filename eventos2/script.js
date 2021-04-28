@@ -34,3 +34,9 @@ const eventoSubmit = form.addEventListener('submit', (event) => {
 
 
 })
+
+const inputNome = document.querySelector('input');
+
+inputNome.addEventListener('keyup', (event) => {
+  this.value = this.value.toUpperCase();
+})

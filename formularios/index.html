@@ -9,31 +9,33 @@
   </head>
   <body>
     <h1>Cadastre-se</h1>
-     
-    <form action="/cadastro" method="POST">
+    <ul id='errorList'>
+      <li id="li1"></li>
+      <li id="li2"></li>
+    </ul>
+    <form action="">
       <fieldset>
         <legend>First Name</legend>
         <label for="firstName"></label>
-        <input type="text" name="firstName" value="" required />
+        <input type="text" id='firstName' name="firstName" value="" required />
       </fieldset>
 
       <fieldset>
         <legend>Last Name </legend>
         <label for="lastName"></label>
-        <input type="text" name="lastNameName" value="" required />
+        <input type="text"  id='lastName' name="lastNameName" value="" required />
       </fieldset>
     
-
       <fieldset>
         <legend>Password </legend>
         <label for="password"></label>
-        <input type="password" name="password" value='' required />
+        <input type="password" id='password' name="password" value='' required />
       </fieldset>
 
       <fieldset>
         <legend>Password confirmation</legend>
         <label for="senha"></label>
-        <input type="password" name="senha" value='' required />
+        <input type="password" id='passwordConfirmation' name="senha" value='' required />
       </fieldset>
 
       <label for="country">Country:</label>
@@ -45,7 +47,9 @@
         <option value="australia">Austrália</option>
       </select>
 
-      <button>Salvar</button>
+      <button type='submit'>Salvar</button>
     </form>
+
+  <script src='script.js'></script>
   </body>
 </html>
