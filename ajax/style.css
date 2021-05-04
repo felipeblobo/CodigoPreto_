@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Playfair+Display:wght@400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0 auto;
+    max-width:960px;
+    background-color:#f5f5f5;
+    font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+ h1 {
+     font-family: 'Playfair Display', serif;
+     margin: 2rem 0;
+     text-align: center;
+ }
+ 
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    max-width: 37.5rem;
+    height: 25rem;
+    padding: 1rem 2rem;
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    
+}
+
+
+#formTitle {
+    flex-basis:100%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.fieldsForm {
+    flex-grow: 1;
+    margin-right: 2rem;
+        
+}
+
+.nameBlock {
+    width: 94%;
+}
+
+.break {
+    flex-grow:unset;
+    margin-right: 2rem;
+}
+
+.break2 {
+    flex-shrink: 6;
+    margin-right: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+input {
+    padding: .4rem;
+    width: 100%;
+    caret-color: #19EDC3;
+    border: 1px solid #cacaca;
+    outline: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+input:focus {
+    border:1.5px solid #19EDC3;
+}
+
+
+.buttonsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+
+
+}
+
+button {
+    width: 7rem;
+    font-family: 'Playfair Display', serif;
+    height: 2.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+}
+
+#cancelButton {
+    background-color: #FF057F;
+    color: white;
+    margin-right: 1rem;
+   
+}
+
+#submitButton {
+    background-color: #079FFE;
+    color: white;
+    margin-right: 1.8rem;
+}
+
+button:hover {
+    filter:  brightness(.9);
+}

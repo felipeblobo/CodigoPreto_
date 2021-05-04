@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AJAX - CEP</title>
+  </head>
+  <body>
+    <h1>JavaScript Assíncrono</h1>
+
+    <form action="">
+      <div id="formTitle">
+        <h2>Cadastro</h2>
+      </div>
+
+      <div class="nameBlock">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" value="" required />
+      </div>
+
+      <div class="break">
+        <label for="cep">CEP</label>
+        <input
+          type="text"
+          id="cep"
+          name="cep"
+          value=""
+          placeholder="Somente números"
+          max-length="9"
+          required
+        />
+      </div>
+
+      <div class="fieldsForm">
+        <label for="logradouro">Logradouro</label>
+        <input
+          type="text"
+          id="logradouro"
+          name="logradouro"
+          value=""
+          required
+        />
+      </div>
+
+      <div class="break2">
+        <label for="number">Número</label>
+        <input type="number" id="numero" name="numero" value="" required />
+      </div>
+
+      <div class="fieldsForm">
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" name="bairro" value="" required />
+      </div>
+
+      <div class="fieldsForm">
+        <legend>Cidade</legend>
+        <label for="localidade"></label>
+        <input
+          type="text"
+          id="localidade"
+          name="localidade"
+          value=""
+          required
+        />
+      </div>
+
+      <div class="break">
+        <legend>Estado</legend>
+        <label for="uf"></label>
+        <input type="uf" id="uf" name="uf" value="" required />
+      </div>
+
+      <div class="buttonsDiv">
+        <button id="cancelButton" type="reset">Cancelar</button>
+        <button id="submitButton" type="submit">Salvar</button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
