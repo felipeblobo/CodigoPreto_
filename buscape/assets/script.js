@@ -30,12 +30,8 @@ const puttingCards = async() => {
 
 puttingCards()
 
-const teste = document.querySelectorAll(".test");
-console.log(teste)
-
-teste.forEach((button) => {
-  console.log('oi')
-})
+const buyButtons = document.querySelectorAll(".buyButton");
+console.log(buyButtons)
 
 
 // function backPhoto() {
